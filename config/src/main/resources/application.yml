@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Chenjun002/SpringCloud-config
+          username: chenjun002@chinasofti.com
+          password: 891125Cjwl
+          basedir: E:/jarries/spring_cloud
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:8761/eureka/
